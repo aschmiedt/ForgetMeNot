@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A19E6711182B167500EA420F /* ForgetMeNotEMailButton copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */; };
 		A19E6713182B19CF00EA420F /* FMN-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6712182B19CF00EA420F /* FMN-Background.png */; };
+		A19E6715182C0C7400EA420F /* PendingMessageButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6714182C0C7400EA420F /* PendingMessageButton.png */; };
 		A1D82306182B0ECA0079D2F0 /* FMN-Background-final.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D82305182B0ECA0079D2F0 /* FMN-Background-final.png */; };
 		A1DB3E76182B08D800876E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DB3E75182B08D800876E1F /* Foundation.framework */; };
 		A1DB3E78182B08D800876E1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DB3E77182B08D800876E1F /* CoreGraphics.framework */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ForgetMeNotEMailButton copy.png"; sourceTree = "<group>"; };
 		A19E6712182B19CF00EA420F /* FMN-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FMN-Background.png"; sourceTree = "<group>"; };
+		A19E6714182C0C7400EA420F /* PendingMessageButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PendingMessageButton.png; sourceTree = "<group>"; };
 		A1D82305182B0ECA0079D2F0 /* FMN-Background-final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FMN-Background-final.png"; sourceTree = "<group>"; };
 		A1DB3E72182B08D800876E1F /* ForgetMeNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForgetMeNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DB3E75182B08D800876E1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,6 +144,7 @@
 				A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */,
 				A1DB3EB8182B0ABE00876E1F /* ForgetMeNotTwitterButton.png */,
 				A19E6712182B19CF00EA420F /* FMN-Background.png */,
+				A19E6714182C0C7400EA420F /* PendingMessageButton.png */,
 				A1DB3E7C182B08D800876E1F /* Supporting Files */,
 			);
 			path = ForgetMeNot;
@@ -262,6 +265,7 @@
 				A1DB3EB0182B096800876E1F /* Forgetmenotmessagebutton.png in Resources */,
 				A1DB3E89182B08D800876E1F /* Main_iPhone.storyboard in Resources */,
 				A1D82306182B0ECA0079D2F0 /* FMN-Background-final.png in Resources */,
+				A19E6715182C0C7400EA420F /* PendingMessageButton.png in Resources */,
 				A1DB3E80182B08D800876E1F /* InfoPlist.strings in Resources */,
 				A19E6711182B167500EA420F /* ForgetMeNotEMailButton copy.png in Resources */,
 			);
