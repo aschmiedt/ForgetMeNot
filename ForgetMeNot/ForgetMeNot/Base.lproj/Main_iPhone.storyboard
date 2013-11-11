@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ofi-ZI-5XI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ofi-ZI-5XI">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
@@ -93,10 +93,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Textmessage View Controller-->
         <scene sceneID="7w1-lm-V1j">
             <objects>
-                <viewController id="7xd-V2-Kz0" sceneMemberID="viewController">
+                <viewController id="7xd-V2-Kz0" customClass="textmessageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OnP-dN-HuT"/>
                         <viewControllerLayoutGuide type="bottom" id="0kq-XC-cMi"/>
@@ -151,11 +151,44 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <state key="normal" title=" " image="ForgetMeNotEMailButton copy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveButton:" destination="7xd-V2-Kz0" eventType="touchUpInside" id="sOw-F4-NvY"/>
+                                </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q5D-Rh-wqa">
+                                <rect key="frame" x="115" y="125" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hN6-Jn-PdP">
+                                <rect key="frame" x="115" y="155" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTo-fA-qWR">
+                                <rect key="frame" x="40" y="129" width="51" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXA-xQ-MwX">
+                                <rect key="frame" x="40" y="159" width="67" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="KaC-mX-rkp"/>
+                    <connections>
+                        <outlet property="messageField" destination="nMw-WD-dPR" id="fDf-ta-pTu"/>
+                        <outlet property="nameField" destination="q5D-Rh-wqa" id="KLn-SZ-KlJ"/>
+                        <outlet property="numberField" destination="hN6-Jn-PdP" id="sjf-4s-m1k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdC-3x-9yO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -415,6 +448,12 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     <resources>
         <image name="FMN-Background-final.png" width="640" height="1048"/>
         <image name="FMN-Background.png" width="640" height="1048"/>
+        <image name="FMN-Background.png" width="640" height="1048"/>
+        <image name="FMN-Background.png" width="640" height="1048"/>
+        <image name="FMN-Background.png" width="640" height="1048"/>
+        <image name="ForgetMeNotEMailButton copy.png" width="170" height="170"/>
+        <image name="ForgetMeNotEMailButton copy.png" width="170" height="170"/>
+        <image name="ForgetMeNotEMailButton copy.png" width="170" height="170"/>
         <image name="ForgetMeNotEMailButton copy.png" width="170" height="170"/>
         <image name="ForgetMeNotEMailButton.png" width="170" height="170"/>
         <image name="ForgetMeNotFBButton.png" width="170" height="170"/>
