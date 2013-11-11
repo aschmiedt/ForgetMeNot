@@ -151,11 +151,17 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <state key="normal" title=" " image="ForgetMeNotEMailButton copy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="save:" destination="7xd-V2-Kz0" eventType="touchUpInside" id="sOR-XT-Rbj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="KaC-mX-rkp"/>
+                    <connections>
+                        <outlet property="datePicker" destination="rHW-25-UQj" id="mM6-Xb-lW5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdC-3x-9yO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -265,11 +271,17 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <state key="normal" title=" " image="ForgetMeNotEMailButton copy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="save:" destination="3h7-SR-WdH" eventType="touchUpInside" id="tJt-MO-kI7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="36h-O8-YqK"/>
+                    <connections>
+                        <outlet property="datePicker" destination="IgV-DJ-ky0" id="vPF-pz-84v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uzu-xk-2gH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -333,11 +345,17 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <state key="normal" title=" " image="ForgetMeNotEMailButton copy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="save:" destination="dZr-Kg-U5N" eventType="touchUpInside" id="x92-yY-5xI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="DwX-Xz-QRJ"/>
+                    <connections>
+                        <outlet property="datePicker" destination="nSG-4t-vjS" id="guf-Oh-a6n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4c2-72-buZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -401,11 +419,17 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <state key="normal" title=" " image="ForgetMeNotEMailButton copy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="save:" destination="c1k-AJ-CeR" eventType="touchUpInside" id="PsK-tR-mpi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Wg-Rj-Uvl"/>
+                    <connections>
+                        <outlet property="datePicker" destination="KTd-g5-8ca" id="dQg-rJ-YRa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaD-Hk-7Dq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
