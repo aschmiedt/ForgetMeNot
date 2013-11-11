@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6391BE5D18318E2500B9E22B /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391BE5C18318E2500B9E22B /* TwitterViewController.m */; };
+		6391BE601831900400B9E22B /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391BE5F1831900400B9E22B /* FBViewController.m */; };
 		A19E6711182B167500EA420F /* ForgetMeNotEMailButton copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */; };
 		A19E6713182B19CF00EA420F /* FMN-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6712182B19CF00EA420F /* FMN-Background.png */; };
 		A19E6715182C0C7400EA420F /* PendingMessageButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6714182C0C7400EA420F /* PendingMessageButton.png */; };
@@ -46,6 +47,8 @@
 /* Begin PBXFileReference section */
 		6391BE5B18318E2500B9E22B /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
 		6391BE5C18318E2500B9E22B /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		6391BE5E1831900400B9E22B /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		6391BE5F1831900400B9E22B /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
 		A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ForgetMeNotEMailButton copy.png"; sourceTree = "<group>"; };
 		A19E6712182B19CF00EA420F /* FMN-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FMN-Background.png"; sourceTree = "<group>"; };
 		A19E6714182C0C7400EA420F /* PendingMessageButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PendingMessageButton.png; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				A1DB3E85182B08D800876E1F /* FMNAppDelegate.m */,
 				A1DB3E87182B08D800876E1F /* Main_iPhone.storyboard */,
 				6391BE5B18318E2500B9E22B /* TwitterViewController.h */,
+				6391BE5E1831900400B9E22B /* FBViewController.h */,
+				6391BE5F1831900400B9E22B /* FBViewController.m */,
 				6391BE5C18318E2500B9E22B /* TwitterViewController.m */,
 				A1DB3E8A182B08D800876E1F /* Main_iPad.storyboard */,
 				A1DB3E8D182B08D800876E1F /* FMNViewController.h */,
@@ -303,6 +308,7 @@
 				A1DB3E86182B08D800876E1F /* FMNAppDelegate.m in Sources */,
 				A1DB3E8F182B08D800876E1F /* FMNViewController.m in Sources */,
 				A1DB3E82182B08D800876E1F /* main.m in Sources */,
+				6391BE601831900400B9E22B /* FBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
