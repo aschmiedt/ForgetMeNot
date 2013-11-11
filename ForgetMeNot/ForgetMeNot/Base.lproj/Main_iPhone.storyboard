@@ -93,10 +93,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Message View Controller - MessageViewController-->
         <scene sceneID="7w1-lm-V1j">
             <objects>
-                <viewController id="7xd-V2-Kz0" sceneMemberID="viewController">
+                <viewController title="MessageViewController" id="7xd-V2-Kz0" customClass="MessageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OnP-dN-HuT"/>
                         <viewControllerLayoutGuide type="bottom" id="0kq-XC-cMi"/>
@@ -207,10 +207,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="745" y="692"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - FBViewController-->
         <scene sceneID="jiE-Yi-Gzv">
             <objects>
-                <viewController id="3h7-SR-WdH" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FBViewController" title="FBViewController" id="3h7-SR-WdH" customClass="FBViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9mh-GY-QQX"/>
                         <viewControllerLayoutGuide type="bottom" id="Hhg-o0-6Sd"/>
@@ -273,12 +273,12 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uzu-xk-2gH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1182" y="-1"/>
+            <point key="canvasLocation" x="1192" y="-120"/>
         </scene>
-        <!--View Controller-->
+        <!--Email View Controller-->
         <scene sceneID="10r-JH-no9">
             <objects>
-                <viewController id="dZr-Kg-U5N" sceneMemberID="viewController">
+                <viewController id="dZr-Kg-U5N" customClass="EmailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZY9-ij-chQ"/>
                         <viewControllerLayoutGuide type="bottom" id="Ogm-b1-Orb"/>
@@ -343,10 +343,10 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="1610" y="-1"/>
         </scene>
-        <!--View Controller-->
+        <!--Twitter View Controller - TwitterViewController-->
         <scene sceneID="WOG-wv-3fj">
             <objects>
-                <viewController id="c1k-AJ-CeR" sceneMemberID="viewController">
+                <viewController title="TwitterViewController" id="c1k-AJ-CeR" customClass="TwitterViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gz3-Z9-xFh"/>
                         <viewControllerLayoutGuide type="bottom" id="SWx-JJ-pF2"/>
