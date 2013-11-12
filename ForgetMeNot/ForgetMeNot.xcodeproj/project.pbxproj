@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63F4095E1831E86900733DD0 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4095D1831E86900733DD0 /* TwitterViewController.m */; };
+		63F409611831E87A00733DD0 /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F409601831E87A00733DD0 /* FBViewController.m */; };
+		63F409641831E88900733DD0 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F409631831E88900733DD0 /* EmailViewController.m */; };
 		A194765218319A1400B80EB6 /* textmessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A194765118319A1400B80EB6 /* textmessageViewController.m */; };
 		A19E6711182B167500EA420F /* ForgetMeNotEMailButton copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */; };
 		A19E6713182B19CF00EA420F /* FMN-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6712182B19CF00EA420F /* FMN-Background.png */; };
@@ -44,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63F4095C1831E86900733DD0 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		63F4095D1831E86900733DD0 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		63F4095F1831E87A00733DD0 /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		63F409601831E87A00733DD0 /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
+		63F409621831E88900733DD0 /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		63F409631831E88900733DD0 /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
 		A194765018319A1400B80EB6 /* textmessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = textmessageViewController.h; path = ../textmessageViewController.h; sourceTree = "<group>"; };
 		A194765118319A1400B80EB6 /* textmessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = textmessageViewController.m; path = ../textmessageViewController.m; sourceTree = "<group>"; };
 		A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ForgetMeNotEMailButton copy.png"; sourceTree = "<group>"; };
@@ -151,6 +160,12 @@
 			children = (
 				A194765018319A1400B80EB6 /* textmessageViewController.h */,
 				A194765118319A1400B80EB6 /* textmessageViewController.m */,
+				63F4095C1831E86900733DD0 /* TwitterViewController.h */,
+				63F4095D1831E86900733DD0 /* TwitterViewController.m */,
+				63F4095F1831E87A00733DD0 /* FBViewController.h */,
+				63F409601831E87A00733DD0 /* FBViewController.m */,
+				63F409621831E88900733DD0 /* EmailViewController.h */,
+				63F409631831E88900733DD0 /* EmailViewController.m */,
 				A1DB3E84182B08D800876E1F /* FMNAppDelegate.h */,
 				A1DB3E85182B08D800876E1F /* FMNAppDelegate.m */,
 				A1DB3E87182B08D800876E1F /* Main_iPhone.storyboard */,
@@ -299,9 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F409641831E88900733DD0 /* EmailViewController.m in Sources */,
 				A1DB3E86182B08D800876E1F /* FMNAppDelegate.m in Sources */,
 				A1DB3E8F182B08D800876E1F /* FMNViewController.m in Sources */,
+				63F409611831E87A00733DD0 /* FBViewController.m in Sources */,
 				A1DB3E82182B08D800876E1F /* main.m in Sources */,
+				63F4095E1831E86900733DD0 /* TwitterViewController.m in Sources */,
 				A194765218319A1400B80EB6 /* textmessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

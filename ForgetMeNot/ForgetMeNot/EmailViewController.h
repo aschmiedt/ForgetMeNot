@@ -1,5 +1,5 @@
 //
-//  TwitterViewController.h
+//  EmailViewController.h
 //  ForgetMeNot
 //
 //  Created by Jamie on 11/11/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TwitterViewController : UIViewController
+@interface EmailViewController : UIViewController
 
 @end
