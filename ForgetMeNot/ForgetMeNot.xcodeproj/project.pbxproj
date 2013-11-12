@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75A7681818318F080056041B /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7681718318F080056041B /* TwitterViewController.m */; };
 		A194765218319A1400B80EB6 /* textmessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A194765118319A1400B80EB6 /* textmessageViewController.m */; };
 		A19E6711182B167500EA420F /* ForgetMeNotEMailButton copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */; };
 		A19E6713182B19CF00EA420F /* FMN-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A19E6712182B19CF00EA420F /* FMN-Background.png */; };
@@ -45,8 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		75A7681618318F080056041B /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
-		75A7681718318F080056041B /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		A194765018319A1400B80EB6 /* textmessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = textmessageViewController.h; path = ../textmessageViewController.h; sourceTree = "<group>"; };
 		A194765118319A1400B80EB6 /* textmessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = textmessageViewController.m; path = ../textmessageViewController.m; sourceTree = "<group>"; };
 		A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ForgetMeNotEMailButton copy.png"; sourceTree = "<group>"; };
@@ -141,8 +138,6 @@
 				A1DB3E84182B08D800876E1F /* FMNAppDelegate.h */,
 				A1DB3E85182B08D800876E1F /* FMNAppDelegate.m */,
 				A1DB3E87182B08D800876E1F /* Main_iPhone.storyboard */,
-				75A7681618318F080056041B /* TwitterViewController.h */,
-				75A7681718318F080056041B /* TwitterViewController.m */,
 				A1DB3E8A182B08D800876E1F /* Main_iPad.storyboard */,
 				A1DB3E8D182B08D800876E1F /* FMNViewController.h */,
 				A1DB3E8E182B08D800876E1F /* FMNViewController.m */,
@@ -296,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A7681818318F080056041B /* TwitterViewController.m in Sources */,
 				A1DB3E86182B08D800876E1F /* FMNAppDelegate.m in Sources */,
 				A1DB3E8F182B08D800876E1F /* FMNViewController.m in Sources */,
 				A1DB3E82182B08D800876E1F /* main.m in Sources */,
