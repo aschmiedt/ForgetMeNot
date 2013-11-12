@@ -100,6 +100,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6391BE6D1831D1A800B9E22B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A1DB3E90182B08D800876E1F /* Images.xcassets */,
+				A1D82305182B0ECA0079D2F0 /* FMN-Background-final.png */,
+				A1DB3EAF182B096800876E1F /* Forgetmenotmessagebutton.png */,
+				A1DB3EB2182B0A8800876E1F /* ForgetMeNotFBButton.png */,
+				A1DB3EB7182B0ABE00876E1F /* ForgetMeNotEMailButton.png */,
+				A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */,
+				A1DB3EB8182B0ABE00876E1F /* ForgetMeNotTwitterButton.png */,
+				A19E6712182B19CF00EA420F /* FMN-Background.png */,
+				A19E6714182C0C7400EA420F /* PendingMessageButton.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		A1DB3E69182B08D800876E1F = {
 			isa = PBXGroup;
 			children = (
@@ -141,15 +157,7 @@
 				A1DB3E8A182B08D800876E1F /* Main_iPad.storyboard */,
 				A1DB3E8D182B08D800876E1F /* FMNViewController.h */,
 				A1DB3E8E182B08D800876E1F /* FMNViewController.m */,
-				A1DB3E90182B08D800876E1F /* Images.xcassets */,
-				A1D82305182B0ECA0079D2F0 /* FMN-Background-final.png */,
-				A1DB3EAF182B096800876E1F /* Forgetmenotmessagebutton.png */,
-				A1DB3EB2182B0A8800876E1F /* ForgetMeNotFBButton.png */,
-				A1DB3EB7182B0ABE00876E1F /* ForgetMeNotEMailButton.png */,
-				A19E6710182B167500EA420F /* ForgetMeNotEMailButton copy.png */,
-				A1DB3EB8182B0ABE00876E1F /* ForgetMeNotTwitterButton.png */,
-				A19E6712182B19CF00EA420F /* FMN-Background.png */,
-				A19E6714182C0C7400EA420F /* PendingMessageButton.png */,
+				6391BE6D1831D1A800B9E22B /* images */,
 				A1DB3E7C182B08D800876E1F /* Supporting Files */,
 			);
 			path = ForgetMeNot;
