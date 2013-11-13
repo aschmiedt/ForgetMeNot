@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ofi-ZI-5XI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="7xd-V2-Kz0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
@@ -17,7 +17,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="chX-MG-eGt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-281" y="-24"/>
+            <point key="canvasLocation" x="-401" y="-32"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -185,6 +185,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                     </view>
                     <navigationItem key="navigationItem" id="KaC-mX-rkp"/>
                     <connections>
+                        <outlet property="dateField" destination="rHW-25-UQj" id="Cra-hE-kYd"/>
                         <outlet property="messageField" destination="nMw-WD-dPR" id="fDf-ta-pTu"/>
                         <outlet property="nameField" destination="q5D-Rh-wqa" id="KLn-SZ-KlJ"/>
                         <outlet property="numberField" destination="hN6-Jn-PdP" id="sjf-4s-m1k"/>
@@ -192,7 +193,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdC-3x-9yO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="776" y="-13"/>
+            <point key="canvasLocation" x="762" y="-50"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="0LY-b1-mbN">
@@ -448,12 +449,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
     <resources>
         <image name="FMN-Background-final.png" width="640" height="1048"/>
         <image name="FMN-Background.png" width="640" height="1048"/>
-        <image name="FMN-Background.png" width="640" height="1048"/>
-        <image name="FMN-Background.png" width="640" height="1048"/>
-        <image name="FMN-Background.png" width="640" height="1048"/>
-        <image name="ForgetMeNotEMailButton copy.png" width="170" height="170"/>
-        <image name="ForgetMeNotEMailButton copy.png" width="170" height="170"/>
-        <image name="ForgetMeNotEMailButton copy.png" width="170" height="170"/>
         <image name="ForgetMeNotEMailButton copy.png" width="170" height="170"/>
         <image name="ForgetMeNotEMailButton.png" width="170" height="170"/>
         <image name="ForgetMeNotFBButton.png" width="170" height="170"/>
