@@ -13,11 +13,27 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 @property (weak, nonatomic) IBOutlet UITextField *numberField;
 @property (weak, nonatomic) IBOutlet UITextView *messageField;
-@property NSMutableArray *messageArray;
 
 @end
 
 @implementation textmessageViewController
+
+//hide keyboard (only works for textField for now
+@synthesize nameField;
+@synthesize numberField;
+@synthesize messageField;
+
+- (IBAction)backgroundTouched:(id)sender {
+    [nameField resignFirstResponder];
+    [numberField resignFirstResponder];
+    [messageField resignFirstResponder];
+}
+
+- (IBAction)textfieldReturn:(id)sender {
+    [sender resignFirstResponder];
+}
+
+
 - (IBAction)saveButton:(id)sender {
     //this dictionary holds the recipients name, number, and message
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
@@ -54,13 +70,6 @@
 - (void)viewDidLoad
 {
 	// Do any additional setup after loading the view.
-    self.messageArray = [[NSMutableArray alloc] init];
-    NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-    NSString *plistPath = [rootPath stringByAppendingPathComponent:@"Data.plist"];
-    self.messageArray = [[NSMutableArray alloc] initWithContentsOfFile:plistPath];
-    if(self.messageArray==nil){
-        self.messageArray = [[NSMutableArray alloc] init];
-    }
     [super viewDidLoad];
     
 }

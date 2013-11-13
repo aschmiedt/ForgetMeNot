@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface textmessageViewController : UIViewController
+@property NSMutableArray *messageArray;
+
+//part of the hide keyboard code
+- (IBAction)backgroundTouched:(id)sender;
+- (IBAction)textfieldReturn:(id)sender;
 
 @end
