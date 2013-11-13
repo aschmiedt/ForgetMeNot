@@ -48,15 +48,59 @@
     [self.messageArray addObject:dict];
     NSString *plistPath = [rootPath stringByAppendingPathComponent:@"Data.plist"];
     [self.messageArray writeToFile:plistPath atomically:YES];
-    
-    //This array holds the different messages
-    
+
     
     NSLog(@"%@", self.messageArray);
-
+    //If i wanted to create a method to convert the date into a string so that I can display it in a table where would I do that?
+    
+    [self.messageField resignFirstResponder];
+    
+    NSDate *pickerDate = [self.dateField date];
+    
+    // Schedule the notification
+    
+    UILocalNotification* localNotification = [[UILocalNotification alloc] init];
+    
+    localNotification.fireDate = pickerDate;
+    
+    localNotification.alertBody = self.messageField.text;
+    
+    localNotification.alertAction = @"Show me the item";
+    
+    localNotification.timeZone = [NSTimeZone defaultTimeZone];
+    
+    localNotification.applicationIconBadgeNumber = [[UIApplication sharedApplication] applicationIconBadgeNumber] + 1;
+    
+    
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
+    
+    
+    
+    // Request to reload table view data
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadData" object:self];
+    
+    
+    
+    // Dismiss the view controller
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+
+{
+    
+    [self.messageField resignFirstResponder];
+    
+    return NO;
+    
+
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

@@ -7,6 +7,7 @@
 //
 
 #import "PendingMessages.h"
+#import "MessageComposerViewController.h"
 @interface PendingMessages ()
 
 @end
@@ -64,7 +65,6 @@
 
     NSDictionary *messageDict = self.messageArray[indexPath.row];
     cell.textLabel.text = messageDict[@"Name"];
-
     cell.detailTextLabel.text = messageDict[@"Message"];
     return cell;
 }
@@ -108,7 +108,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -116,8 +116,14 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if([segue.identifier isEqualToString:@"messagecomposer"]){
+        MessageComposerViewController *nameBack = segue.destinationViewController;
+        NSIndexPath *selectedPath = self.tableView.indexPathForSelectedRow;
+        nameBack.messageDict = self.messageArray[selectedPath.row];
+    
+        }
 }
 
- */
+
 
 @end
