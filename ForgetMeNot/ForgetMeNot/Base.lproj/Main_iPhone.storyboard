@@ -265,7 +265,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <!--Navigation Controller-->
         <scene sceneID="e5u-ia-JK0">
             <objects>
-                <navigationController definesPresentationContext="YES" id="evB-OA-Ma1" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Navi" definesPresentationContext="YES" id="evB-OA-Ma1" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DM0-XN-NwB">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -280,7 +280,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <!--Message Composer View Controller-->
         <scene sceneID="hWQ-kL-k5J">
             <objects>
-                <viewController storyboardIdentifier="Navi" id="rYH-sl-hue" customClass="MessageComposerViewController" sceneMemberID="viewController">
+                <viewController id="rYH-sl-hue" customClass="MessageComposerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ctf-6g-nGy"/>
                         <viewControllerLayoutGuide type="bottom" id="XOk-Ak-TSY"/>
@@ -334,7 +334,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="6QJ-V1-YXD"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="messageBack" destination="1cm-jz-bSj" id="RTU-cu-HKd"/>
                         <outlet property="nameBack" destination="6dI-Q5-kgY" id="Uxa-sQ-27D"/>

@@ -25,6 +25,13 @@
 
 - (void)viewDidLoad
 {
+    self.messageArray = [[NSMutableArray alloc] init];
+    NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    NSString *plistPath = [rootPath stringByAppendingPathComponent:@"Data.plist"];
+    self.messageArray = [[NSMutableArray alloc] initWithContentsOfFile:plistPath];
+    if(self.messageArray==nil){
+        self.messageArray = [[NSMutableArray alloc] init];
+    }
     [super viewDidLoad];
 
     // Uncomment the following line to preserve selection between presentations.
