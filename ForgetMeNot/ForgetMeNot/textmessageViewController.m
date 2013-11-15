@@ -98,7 +98,7 @@
     
     // Dismiss the view controller
     
-    [self dismissViewControllerAnimated:YES completion:nil];
+    //[self dismissViewControllerAnimated:YES completion:nil];
     
 }
 

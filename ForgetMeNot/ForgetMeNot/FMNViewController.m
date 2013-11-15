@@ -9,6 +9,7 @@
 #import "FMNViewController.h"
 #import "textmessageViewController.h"
 #import "PendingMessages.h"
+#import "MessageComposerViewController.h"
 
 @interface FMNViewController ()
 @property NSMutableArray *messageArray;
